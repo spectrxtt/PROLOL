@@ -48,7 +48,7 @@ const HomePage = () => {
                     <img src={blitz} alt="Pro Build Champion" className="pro-build-image" />
                     <div className="pro-build-info">
                         <h3>PRO BUILD</h3>
-                        <p>Analizamos datos de partidas de alto nivel, para proporcionarte recomendaciones de acuerdo a tus requerimientos, incluyendo el rol que juegas, tu nivel de habilidad y tu estilo de juego personal. A partir de esta información, genera recomendaciones precisas de campeones, ítems y runas que se adaptan a las tendencias actuales del meta. Esto te permite tomar decisiones estratégicas informadas. ¡Explora cómo nuestras recomendaciones pueden transformar tu experiencia de juego!</p>
+                        <p>Analizamos datos de partidas de alto nivel para ofrecerte recomendaciones personalizadas, adaptadas a tu rol, nivel de habilidad y estilo de juego. Con esta información, nuestro sistema genera recomendaciones precisas de campeones, ítems y runas, siempre alineadas con las tendencias actuales del meta. Esto te permitirá tomar decisiones estratégicas más informadas. ¡Descubre cómo nuestras recomendaciones pueden transformar tu experiencia en el juego!</p>
                         <div className="pro-build-details">
                             <button className="ver-mas-button">Ver mas</button>
                         </div>
