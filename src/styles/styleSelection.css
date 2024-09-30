@@ -1,0 +1,94 @@
+.pro-build-container {
+    background-color: #1a202c;
+    color: white;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    background-color: #4a5568;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.playstyle-selection {
+    background-color: #2d3748;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.selection-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.selection-description {
+    color: #a0aec0;
+}
+
+.playstyle-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.playstyle-card {
+    background-color: #2d3748;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.playstyle-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.playstyle-image {
+    background-color: white;
+    height: 80px;
+    margin: 1rem 0;
+}
+
+.playstyle-description {
+    color: #a0aec0;
+    font-size: 0.875rem;
+}
+
+.progress-bar {
+    background-color: #2d3748;
+    height: 0.5rem;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.progress {
+    background-color: #ed64a6;
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+}

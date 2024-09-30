@@ -1,0 +1,128 @@
+/* Estilo general de la página */
+body {
+    background-color: #0D0E15; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.pro-buildS-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Sección izquierda para la información */
+.information {
+    background-color: #21242D; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.information h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.information-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.information-item p {
+    font-size: 16px;
+}
+
+.edit-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* Contenedor de las tarjetas de campeón */
+.champion-suggestions-container {
+    width: 70%;
+}
+
+.champion-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Cambia a 2 o 3 columnas para pantallas más grandes */
+    gap: 20px;
+}
+
+/* Tarjeta de campeón */
+.champion-card {
+    background-color: #1A1C23; /* Fondo oscuro para cada tarjeta */
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.champion-imageSug {
+    width: 80px; /* Tamaño de la imagen del campeón */
+    height: 80px;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.champion-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    flex: 1;
+}
+
+.champion-name {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.champion-role {
+    font-size: 16px;
+    color: #ccc;
+}
+
+/* Sección de runas */
+.runes {
+    display: flex;
+    gap: 10px;
+}
+
+.rune-image {
+    width: 50px; /* Tamaño de los íconos de runas */
+    height: 50px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Botón Ver más */
+.more-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+/* Header */
+.title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}

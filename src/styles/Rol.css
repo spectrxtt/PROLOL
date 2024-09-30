@@ -1,0 +1,94 @@
+.pro-build-container {
+    background-color: #1a202c;
+    color: white;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-button {
+    background-color: #4a5568;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.role-selection {
+    background-color: #2d3748;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.selection-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.selection-description {
+    color: #a0aec0;
+}
+
+.role-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.role-card {
+    background-color: #2d3748;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.role-icon {
+    color: #ed64a6;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.role-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.role-description {
+    color: #a0aec0;
+    font-size: 0.875rem;
+}
+
+.progress-bar {
+    background-color: #2d3748;
+    height: 0.5rem;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.progress {
+    background-color: #ed64a6;
+    width: 20%;
+    height: 100%;
+    border-radius: 9999px;
+}
