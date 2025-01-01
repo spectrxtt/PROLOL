@@ -20,6 +20,7 @@ body{
     justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: #111827;
 }
 .home-page {
     background-color: #1a1a2e;

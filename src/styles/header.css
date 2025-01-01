@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Staatliches&display=swap');
 .header {
     padding: 1rem;
-    position: fixed;
+    position: absolute; /* Cambiado a fixed */
     top: 0;
     left: 0;
     right: 0;
-    z-index: 2;
-    background-color: #1a1a2e;
+    z-index: 10; /* Asegúrate de que sea mayor que el contenido */
+    background:#111827; /* Fondo semi-transparente */
 }
 
 .header nav {
@@ -18,10 +21,13 @@
     display: flex;
     align-items: center;
 }
-.logo-container h1{
+
+.logo-container h1 {
     font-family: "Orbitron", sans-serif;
     font-size: 1rem;
+    color:white;
 }
+
 .logo {
     width: 40px;
     height: 40px;
@@ -33,7 +39,6 @@
 .nav-links {
     display: flex;
     list-style-type: none;
-
 }
 
 .nav-links li {
@@ -42,8 +47,8 @@
 
 .nav-links button {
     color: white;
-    background: none; /* Quita el fondo */
-    border: none; /* Quita el borde */
+    background: none;
+    border: none;
     cursor: pointer;
     font-family: "Staatliches", sans-serif;
 }
@@ -70,6 +75,3 @@
     color: #888;
     cursor: pointer;
 }
-
-
-

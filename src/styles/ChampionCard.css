@@ -1,0 +1,54 @@
+.champion-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.champion-image-container {
+    margin-bottom: 12px;
+}
+
+.champion-image {
+    width: 120px;
+    height: auto;
+    border-radius: 10%;
+}
+
+.champion-name {
+    font-size: 1.2em;
+    margin-bottom: 12px;
+}
+
+.item-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.item-image {
+    width: 48px;
+    height: 48px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.item-image:hover {
+    transform: scale(1.1); /* Efecto de hover */
+}
+
+img {
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 4px 0;
+}

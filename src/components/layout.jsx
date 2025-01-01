@@ -6,7 +6,8 @@ const Layout = ({ children, handleProBuildClick }) => {
     return (
         <>
             <Header handleProBuildClick={handleProBuildClick} />
-            <main>
+            {/* Establecer un margen superior fijo */}
+            <main style={{ marginTop: '6.5rem' }}> {/* Ajusta el valor si es necesario */}
                 {children}
             </main>
         </>
@@ -14,3 +15,4 @@ const Layout = ({ children, handleProBuildClick }) => {
 };
 
 export default Layout;
+
