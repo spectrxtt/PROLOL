@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee05a3db.css",
-    "main.js": "/static/js/main.4eeed5de.js",
-    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
-    "static/media/Diseño sin título.gif": "/static/media/Diseño sin título.83c956fd1437b15d1ab4.gif",
-    "static/media/0_bmCYiJ9wSjUc0L4T.gif": "/static/media/0_bmCYiJ9wSjUc0L4T.4322b41802833d7b89db.gif",
-    "static/media/59fd28d2-400x400.gif": "/static/media/fb1557dd3ff9767c20154b3ccb2c965659fd28d2-400x400.8c8397d79e0215758b4c.gif",
-    "static/media/bkx5nfkvgl781.jpg": "/static/media/bkx5nfkvgl781.5b50356597ec8d6c6cfb.jpg",
-    "static/media/igif": "/static/media/i1490941533309832.128c6742af4723faa1fc.gif",
-    "static/media/Blitzcrank_Render_2.webp": "/static/media/Blitzcrank_Render_2.6bde84190f7cefe13b07.webp",
-    "static/media/Captura de pantalla 2024-11-03 225003.png": "/static/media/Captura de pantalla 2024-11-03 225003.043883549d89a24e4013.png",
-    "static/media/jackson-caspersz-jinx-3-removebg-preview.webp": "/static/media/jackson-caspersz-jinx-3-removebg-preview.6c00062dc520195ec0dc.webp",
-    "index.html": "/index.html",
-    "main.ee05a3db.css.map": "/static/css/main.ee05a3db.css.map",
-    "main.4eeed5de.js.map": "/static/js/main.4eeed5de.js.map",
-    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "./static/css/main.2d91ec99.css",
+    "main.js": "./static/js/main.f8e73538.js",
+    "static/js/453.8ab44547.chunk.js": "./static/js/453.8ab44547.chunk.js",
+    "static/media/Diseño sin título.gif": "./static/media/Diseño sin título.83c956fd1437b15d1ab4.gif",
+    "static/media/0_bmCYiJ9wSjUc0L4T.gif": "./static/media/0_bmCYiJ9wSjUc0L4T.4322b41802833d7b89db.gif",
+    "static/media/59fd28d2-400x400.gif": "./static/media/fb1557dd3ff9767c20154b3ccb2c965659fd28d2-400x400.8c8397d79e0215758b4c.gif",
+    "static/media/bkx5nfkvgl781.jpg": "./static/media/bkx5nfkvgl781.5b50356597ec8d6c6cfb.jpg",
+    "static/media/igif": "./static/media/i1490941533309832.128c6742af4723faa1fc.gif",
+    "static/media/Blitzcrank_Render_2.webp": "./static/media/Blitzcrank_Render_2.6bde84190f7cefe13b07.webp",
+    "static/media/Captura de pantalla 2024-11-03 225003.png": "./static/media/Captura de pantalla 2024-11-03 225003.043883549d89a24e4013.png",
+    "static/media/jackson-caspersz-jinx-3-removebg-preview.webp": "./static/media/jackson-caspersz-jinx-3-removebg-preview.6c00062dc520195ec0dc.webp",
+    "index.html": "./index.html",
+    "main.2d91ec99.css.map": "./static/css/main.2d91ec99.css.map",
+    "main.f8e73538.js.map": "./static/js/main.f8e73538.js.map",
+    "453.8ab44547.chunk.js.map": "./static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee05a3db.css",
-    "static/js/main.4eeed5de.js"
+    "static/css/main.2d91ec99.css",
+    "static/js/main.f8e73538.js"
   ]
 }
