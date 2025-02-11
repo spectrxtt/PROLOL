@@ -7,7 +7,6 @@ const ChampionSuggestions = ({ selectedRole, selectedPlaystyle, selectedSkillLev
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
-
     const transformRoleName = (role) => {
         const roleMap = {
             top: 'Top Lane',
@@ -16,8 +15,16 @@ const ChampionSuggestions = ({ selectedRole, selectedPlaystyle, selectedSkillLev
             bottom: 'AD Carry',
             support: 'Support'
         };
-        return roleMap[role.toLowerCase()] || role;
+        return roleMap[role?.toLowerCase()] || role;
     };
+
+
+    useEffect(() => {
+        // Si faltan datos, redirigir a /pro-build
+        if (!selectedRole || !selectedPlaystyle || !selectedSkillLevel) {
+            navigate('/pro-build');
+        }
+    }, [selectedRole, selectedPlaystyle, selectedSkillLevel, navigate]);
 
     useEffect(() => {
         const fetchRecommendations = async () => {
@@ -49,22 +56,6 @@ const ChampionSuggestions = ({ selectedRole, selectedPlaystyle, selectedSkillLev
         fetchRecommendations();
     }, [selectedRole, selectedPlaystyle, selectedSkillLevel]);
 
-    const handleEdit = (type) => {
-        switch(type) {
-            case 'role':
-                navigate('/pro-build/role-selection', { state: { currentRole: selectedRole, onUpdateRole } });
-                break;
-            case 'playstyle':
-                navigate('/pro-build/playstyle-selection', { state: { currentPlaystyle: selectedPlaystyle, onUpdatePlaystyle } });
-                break;
-            case 'skillLevel':
-                navigate('/pro-build/skill-level-selection', { state: { currentSkillLevel: selectedSkillLevel, onUpdateSkillLevel } });
-                break;
-            default:
-                console.error('Unknown edit type:', type);
-        }
-    };
-
     return (
         <div className="bg-gray-900 p-6 text-white">
             <h2 className="text-3xl font-bold mb-6">PRO BUILD</h2>
@@ -75,18 +66,15 @@ const ChampionSuggestions = ({ selectedRole, selectedPlaystyle, selectedSkillLev
                     <div className="space-y-4">
                         <div>
                             <p className="text-gray-400">Rol</p>
-                            <p className="font-medium">{transformRoleName(selectedRole)}</p>
-
+                            <p className="font-medium">{selectedRole}</p>
                         </div>
                         <div>
                             <p className="text-gray-400">Estilo de juego</p>
                             <p className="font-medium">{selectedPlaystyle}</p>
-
                         </div>
                         <div>
                             <p className="text-gray-400">Nivel de habilidad</p>
                             <p className="font-medium">{selectedSkillLevel}</p>
-
                         </div>
                     </div>
                 </div>
