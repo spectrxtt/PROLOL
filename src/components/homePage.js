@@ -52,49 +52,18 @@ const HomePage = () => {
                 </div>
 
                 <div className="w-full p-8 bg-gradient-to-br from-[#030510] to-[#09014e] via-[#09014e] to-[#030510]">
-                    <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto gap-8">
-                        {/* Columna de texto */}
                         <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto gap-8">
-                            {/* Slider */}
+                            {/* Columna de texto */}
                             <div className="md:w-1/2 text-white">
                                 <h2 className="text-3xl font-bold mb-4">PROFESSIONAL RIFT ORACLE</h2>
-                                <div className="relative">
-                                    <div className="swiper-container">
-                                        <div className="swiper-wrapper">
-                                            <div className="swiper-slide">
-                                                <div
-                                                    className="bg-gray-900 bg-opacity-70 p-6 rounded-lg flex items-center justify-center">
-                                                    <i className="fas fa-chart-line text-4xl mb-2"></i>
-                                                    <h3 className="text-xl font-semibold">Análisis detallado</h3>
-                                                    <p>Obtén información precisa sobre tu estilo de juego.</p>
-                                                </div>
-                                            </div>
-                                            <div className="swiper-slide">
-                                                <div
-                                                    className="bg-gray-900 bg-opacity-70 p-6 rounded-lg flex items-center justify-center">
-                                                    <i className="fas fa-cogs text-4xl mb-2"></i>
-                                                    <h3 className="text-xl font-semibold">Recomendaciones
-                                                        personalizadas</h3>
-                                                    <p>Ajusta tu juego a tus preferencias y estrategias.</p>
-                                                </div>
-                                            </div>
-                                            <div className="swiper-slide">
-                                                <div
-                                                    className="bg-gray-900 bg-opacity-70 p-6 rounded-lg flex items-center justify-center">
-                                                    <i className="fas fa-trophy text-4xl mb-2"></i>
-                                                    <h3 className="text-xl font-semibold">Mejora continua</h3>
-                                                    <p>Optimiza tu rendimiento con recomendaciones de expertos.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* Agregar controles para el slider */}
-                                        <div className="swiper-button-next"></div>
-                                        <div className="swiper-button-prev"></div>
-                                    </div>
-                                </div>
+                                <p className="text-lg">
+                                    Diseñado para potenciar la experiencia de juego, nuestro sistema ayuda a los jugadores a
+                                    tomar decisiones más informadas basadas en su estilo personal de juego. A través de
+                                    análisis
+                                    detallados y recomendaciones personalizadas, cada jugador puede encontrar las opciones
+                                    que mejor se adapten a sus preferencias y estrategias únicas.
+                                </p>
                             </div>
-                        </div>
-
 
                         {/* GIF más pequeño */}
                         <div className="md:w-1/2">
