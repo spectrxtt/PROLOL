@@ -30,9 +30,6 @@ const Header = ({ handleProBuildClick }) => {
                     <li>
                         <button onClick={handleProBuildClickj}>PRO BUILD</button>
                     </li>
-                    <li>
-                        <button onClick={handleLogin}>INICIAR SESION</button>
-                    </li>
                 </ul>
             </nav>
         </header>

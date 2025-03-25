@@ -52,18 +52,18 @@ const HomePage = () => {
                 </div>
 
                 <div className="w-full p-8 bg-gradient-to-br from-[#030510] to-[#09014e] via-[#09014e] to-[#030510]">
-                        <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto gap-8">
-                            {/* Columna de texto */}
-                            <div className="md:w-1/2 text-white">
-                                <h2 className="text-3xl font-bold mb-4">PROFESSIONAL RIFT ORACLE</h2>
-                                <p className="text-lg">
-                                    Diseñado para potenciar la experiencia de juego, nuestro sistema ayuda a los jugadores a
-                                    tomar decisiones más informadas basadas en su estilo personal de juego. A través de
-                                    análisis
-                                    detallados y recomendaciones personalizadas, cada jugador puede encontrar las opciones
-                                    que mejor se adapten a sus preferencias y estrategias únicas.
-                                </p>
-                            </div>
+                    <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto gap-8">
+                        {/* Columna de texto */}
+                        <div className="md:w-1/2 text-white">
+                            <h2 className="text-3xl font-bold mb-4">PROFESSIONAL RIFT ORACLE</h2>
+                            <p className="text-lg">
+                                Diseñado para potenciar la experiencia de juego, nuestro sistema ayuda a los jugadores a
+                                tomar decisiones más informadas basadas en su estilo personal de juego. A través de
+                                análisis
+                                detallados y recomendaciones personalizadas, cada jugador puede encontrar las opciones
+                                que mejor se adapten a sus preferencias y estrategias únicas.
+                            </p>
+                        </div>
 
                         {/* GIF más pequeño */}
                         <div className="md:w-1/2">
